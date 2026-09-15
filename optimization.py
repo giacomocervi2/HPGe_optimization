@@ -101,7 +101,7 @@ def residuals(params):
         res.append((sim - exp) / err)
             
     chi2 = np.sum(np.array(res)**2)
-    print(f"--> Chi-quadro corrente: {chi2:.2f}")
+    print(f"--> Current Chi-squared: {chi2:.2f}")
 
     return np.array(res)
 
