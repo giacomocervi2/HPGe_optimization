@@ -58,7 +58,7 @@ def run_geant4(p_dict):
     subprocess.run(["./build/sim", "opt_run.mac"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 # =========================================================
-# ESTRAZIONE DATI CON R.O.I.
+# EFFICIENCY EXTRACTION
 # =========================================================
 def extract_efficiency(root_filename, energies_keV, br_list):
 
