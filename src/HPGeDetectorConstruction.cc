@@ -158,7 +158,7 @@ G4VPhysicalVolume *HPGeDetectorConstruction::Construct()
 
 	//source placement
 	G4double thickness = 1 * mm; 
-	G4double side1 = 0.5 * cm;
+	G4double side1 = 0.2 * cm;
 	G4double side2 = 1 * cm;
 	G4Box *solidPlastic = new G4Box("solidPlastic", thickness, side1, side2);
 	G4LogicalVolume *logicPlastic = new G4LogicalVolume(solidPlastic, plasticMat, "logicPlastic");
